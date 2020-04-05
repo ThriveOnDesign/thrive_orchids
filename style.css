@@ -1,0 +1,39 @@
+:root {
+  --light: 200;
+  --regular: 400;
+  --bold: 700;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Heebo', Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: var(--regular);
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: bisque;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(255,255,255,0.75);
+  display: flex;
+}
+
+h1 {
+  
+}
+
+nav{
+
+}
