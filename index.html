@@ -13,17 +13,21 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css">
   </head>
 
   <body>
     <header id="header">
       <nav id="nav-bar">
-        <ul>
-          <li><h1>Thrive Orchids</h1></li>
-          <li>Features</li>
-          <li>Price</li>
-          <li>Contact Us</li>
+        <ul class="responsive">
+          <li>
+            <h1><a href="#header">Thrive Orchids </a></h1>
+          </li>
+          <li> <a href="#features">Features</a> </li>
+          <li> <a href="#cards">Price</a> </li>
+          <li><a href="#contact-us">Contact Us</a></li>
         </ul>
+        
       </nav>
       <img
         id="header-img"
@@ -57,7 +61,7 @@
         Orchids can rebloom 1-2 times per year and can live for many years, with
         some records of orchids living for over 100 years.
       </p>
-      <div class="cards">
+      <div id="cards">
         <div class="white-large card">
           <img
             src="./Assests/Media/whitePottedPhalanopsis.png"
@@ -106,10 +110,10 @@
             5 open flowers minimum
           </div>
         </div>
-        <button>Add to cart</button>
-        <button>Add to cart</button>
-        <button>Add to cart</button>
-        <button>Add to cart</button>
+        <button id="btn-large-white">Add to cart</button>
+        <button id="btn-large-violet">Add to cart</button>
+        <button id="btn-mini-white">Add to cart</button>
+        <button id="btn-mini-violet">Add to cart</button>
       </div>
     </main>
     <footer>
@@ -119,14 +123,14 @@
           alt="white orchid close up on black back ground"
           class="footer-img"
         />
-        <div class="contact-us">
+        <div id="contact-us">
           <span class="title">Contact us</span><br />
           <p>
             <i class="fas fa-clock"></i> Mon - Fri 09:00 - 16:00
             <i class="fas fa-phone-alt"></i> 082 962 9052
             <i class="fas fa-map-marker-alt"></i>
-            <span class="pick-up-location">Pick Up Location: </span> 41 Besselsen Street,
-            Universitas, Bloemfontein
+            <span class="pick-up-location">Pick Up Location: </span> 41
+            Besselsen Street, Universitas, Bloemfontein
           </p>
         </div>
       </div>
