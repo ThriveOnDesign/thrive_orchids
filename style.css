@@ -70,10 +70,6 @@ nav ul li {
   margin-left: 4rem;
 }
 
-#hamburger {
-  display: none;
-}
-
 #features {
   position: absolute;
   bottom: 15%;
@@ -227,9 +223,7 @@ button {
 }
 
 @media (max-width: 1000px){
-  ul li:not(:first-child) {
-    display: none;
-  }
+  
 }
 
 /* ***************************animation goes below here*************************** */
