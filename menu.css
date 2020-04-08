@@ -86,3 +86,20 @@ nav ul li:not(:first-child) {
 }
 
 }
+
+@media (max-width: 800px){
+  .menu-wrap .toggler {
+    top: 5px;
+    right: 20px;
+  }
+
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  nav ul li:not(:first-child) {
+    margin:0 40px 0 40px;
+
+}

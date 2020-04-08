@@ -230,6 +230,7 @@ button {
 .top-container {
   grid-template-rows: 250px 105px;
 }
+}
 
 /* 1000 *******************************Media queries  1000 ********************************** */
 
@@ -272,7 +273,68 @@ button {
   }
 }
 
-/* 700 *******************************Media queries  700 ********************************** */
+/* 700 *******************************Media queries  800 ********************************** */
+@media (max-width: 800px) {
+
+  header img {
+    min-height: 90vh;
+    object-fit: cover;
+  }
+
+  nav ul li {
+    font-size: 1.6rem;
+    font-weight: var(--light);
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  #video {
+    display: none;
+  }
+
+  main p {
+    font-size: 1.6rem;
+    padding: 80px 40px 0 40px;
+  }
+
+  .footer-img {
+    min-height: 90vh;
+    object-fit: cover;
+  }
+
+  #features {
+    position: absolute;
+    bottom: 15%;
+    left: 40px;
+  }
+  
+  h2 {
+    font-weight: var(--regular);
+    font-size: 2rem;
+    color: var(--h2-origin-color);
+    letter-spacing: 5px;
+  }
+
+  #cards {
+    grid-template-columns: 250px;
+    max-width: 250px;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    z-index: 1;
+    padding-left: 40px;
+  }
+  
+  #contact-us p {
+    font-size: 1.4rem;
+    padding-left: 40px;
+  }
+}
+
 
 /* ***************************animation goes below here*************************** */
 
